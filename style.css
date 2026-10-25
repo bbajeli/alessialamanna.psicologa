@@ -153,7 +153,7 @@ form .check input { margin-top: .3rem; }
 /* Logo in alto e link alle sedi */
 .hero-logo { display: flex; justify-content: flex-start; align-items: center; margin-bottom: .5rem; }
 .hero-logo[hidden] { display: none; }
-.hero-logo img { width: min(60%, 220px); height: auto; }
+.hero-logo img { width: min(42%, 150px); height: auto; }
 .where a { color: var(--accent); text-decoration: underline; text-underline-offset: .25em; }
 .where a:hover { color: var(--deep); }
 .addr { color: var(--accent); text-underline-offset: .2em; }
@@ -178,5 +178,5 @@ form .check input { margin-top: .3rem; }
 
 @media (min-width: 821px) {
   .hero-logo { order: 2; justify-content: center; }
-  .hero-logo img { width: min(100%, 340px); }
+  .hero-logo img { width: min(100%, 300px); }
 }
