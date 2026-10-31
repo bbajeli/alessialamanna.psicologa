@@ -165,8 +165,6 @@ form .check input { margin-top: .3rem; }
 .review .meta { margin: 0; font-size: .88rem; color: var(--muted); }
 .avatar { flex: none; width: 2.8rem; height: 2.8rem; border-radius: 50%; background: var(--blush); color: var(--accent); display: grid; place-items: center; font: 500 1.4rem var(--serif); }
 .stars { color: #b8863b; font-size: 1.2rem; letter-spacing: .15em; margin: 0 0 .6rem; }
-.hl { list-style: none; display: flex; flex-wrap: wrap; gap: .4rem; padding: 0; margin: 0 0 1rem; }
-.hl li { background: var(--blush); color: var(--deep); border-radius: 999px; padding: .2em .8em; font-size: .88rem; }
 
 /* Scorrimento: le sezioni compaiono con una dissolvenza leggera */
 .site-header { transition: box-shadow .3s ease; }
@@ -180,3 +178,13 @@ form .check input { margin-top: .3rem; }
   .hero-logo { order: 2; justify-content: center; }
   .hero-logo img { width: min(100%, 300px); }
 }
+
+/* Modulo: il consenso resta in un unico blocco di testo accanto alla casella */
+form .check { display: flex; align-items: flex-start; gap: .7rem; }
+form .check input { flex: none; margin-top: .3rem; }
+form .check span { flex: 1; min-width: 0; }
+
+/* Recensioni: estratti */
+.review blockquote { margin: 0 0 1rem; padding: 0; }
+.review blockquote p { font: italic 400 1.3rem/1.4 var(--serif); color: var(--ink); margin: 0; }
+.review .more { font-size: .92rem; }
