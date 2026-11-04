@@ -188,3 +188,6 @@ form .check span { flex: 1; min-width: 0; }
 .review blockquote { margin: 0 0 1rem; padding: 0; }
 .review blockquote p { font: italic 400 1.3rem/1.4 var(--serif); color: var(--ink); margin: 0; }
 .review .more { font-size: .92rem; }
+
+/* Prima schermata: il link alle sedi ora sta sopra il testo */
+.where { margin-bottom: 2rem; }
